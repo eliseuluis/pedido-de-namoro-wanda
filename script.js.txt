@@ -1,0 +1,7 @@
+document.getElementById('yesButton').addEventListener('click', function() {
+    document.getElementById('responseMessage').textContent = 'Você vai ser feliz Wanda';
+});
+
+document.getElementById('noButton').addEventListener('click', function() {
+    document.getElementById('responseMessage').textContent = 'Nao esqueci unhas.';
+});
